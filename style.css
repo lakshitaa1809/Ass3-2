@@ -1,0 +1,33 @@
+body{margin-top:100px;}
+h3{
+    font-family:Arial, Helvetica, serif;
+    font-size: large;
+   text-align: justify;line-height: 30px;}
+h5{
+    font-family:Arial, Helvetica,serif;
+    font-size:small;line-height: 30px;
+    text-align: justify;}
+p{
+    font-family:Arial, Helvetica,serif;
+    font-size:small;
+    text-align: justify;line-height: 20px
+}
+.container{
+    width:1200px;
+    margin:auto; 
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    display:table;
+    width:100%;
+    border-spacing:20px;
+    
+
+   }
+.box1{padding:20px;
+   display:table-cell;width:30%;
+    margin:auto;border-radius:20px;
+   border-style:groove;
+   border-color: rgb(203, 203, 221);border-spacing:20px;
+   }
